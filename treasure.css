@@ -1,0 +1,68 @@
+h1 {
+    color: blue;
+    font-size: 50px;
+    animation: bounce 3s infinite;
+    animation-timing-function: ease-in-out;
+    }
+    @keyframes bounce {
+        0% {
+          transform: scaleX(0.5);
+        }
+        60%{
+          transform: scaleX(1);
+        }
+        100%{
+          transform: scaleX(0.8);
+        }
+      }
+  body {
+    background-image: url("https://images.unsplash.com/photo-1591130220469-32af4144d455?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80");
+    background-color: antiquewhite;
+    background-attachment: fixed;
+    background-size: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .center {
+    text-align: center;
+    border: 5px solid green;
+    background-color: orange;
+    opacity: 80%;
+    border-style: inset
+  }
+  .welcome {
+      text-align: center;
+      border: 5px solid green;
+      background-color: orange;
+      opacity: 80%;
+      border-style: outset
+    }
+  .rule {
+    text-align: center;
+    border: 5px solid green;
+    background-color: orange;
+    opacity: 80%;
+    border-width: 10px;
+    border-style: dashed
+  }
+  .info {
+    text-align: center;
+    border: 5px solid yellow;
+    background-color: orange;
+    opacity: 80%;
+  }
+  .audio {
+  }
+  table {
+      cursor: crosshair;
+      background-color: orange;
+      text-align: center;    
+      font-size: 50px;
+    }
+    button {
+        justify-content: center;
+    }
+   footer {
+    justify-content: center;
+   }
+    
