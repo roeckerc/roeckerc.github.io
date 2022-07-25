@@ -6,9 +6,9 @@ if (goldCoins === plankWalk) {
 }
 const treasure = (location) => {
     if (location === goldCoins) {
-        document.getElementById("gameBoard").innerHTML = "YOU FOUND THE BURRIED Treasure! :&#x1f308:"
+        document.getElementById("gameBoard").innerHTML = alert("YOU FOUND THE BURRIED Treasure!")
     } else if (location === plankWalk) {
-        document.getElementById("gameBoard").innerHTML = "YOUR DEATH IS HERE! THERE IS NO POINT IN FIGHTING. :&#x2620:"
+        document.getElementById("gameBoard").innerHTML = alert("YOUR DEATH IS HERE! THERE IS NO POINT IN FIGHTING.")
     } else {
         document.getElementById(location).innerHTML = "NOPE!"
     }
